@@ -1,0 +1,41 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.descuentos {
+    background-color: #1CD1B0;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.titulo {
+    background-color: #00669F;
+    position: fixed;
+    size: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0; 
+}
+
+.caja {
+    width: 300px;
+    height: 539px;  
+    padding: 40px;  
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.descripcion {
+    padding: 10px;
+}
+
+footer {
+    background-color: #00669F;
+}
+
+
+
