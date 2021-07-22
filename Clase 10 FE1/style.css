@@ -1,0 +1,88 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+
+}
+
+.descuentos {
+    background-color: #1CD1B0;
+    position: relative;
+    
+}
+
+.titulo {
+    background-color: #00669F;
+    position: fixed;
+    size: 100%;
+    width: 100%;
+    height: 100px;
+    top: 35px;
+    padding-top: 25px;
+    padding-left: 25px;
+    box-shadow: -5px 5px #00000040;
+    
+}
+
+.caja {
+    display: inline-block;
+    width: 300px;
+    height: 539px;  
+    text-align: center;
+    
+    
+}
+
+
+
+footer {
+    background-color: #00669F;
+    width: 100%;
+    height: 50px;
+    padding-left: 16px;
+    padding-top: 16px; }
+
+.perfil {
+    position: relative;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    bottom: 55px;
+    left: 28%;
+}
+
+.seccionperfiles {
+    display: inline-block;
+    margin-top: 292px;
+    margin-bottom: 202px;
+    margin-left: 25%;
+    background-color: #c7e4f5;
+    
+    
+}
+
+.boton {
+    position: relative;
+    background-color: #00669F;
+    margin-top: 20x;
+    text-align: center;
+    top: 60px;
+    right: 40px;
+    color: white;
+    
+
+}
+
+.descripcion {
+    text-align: center;
+}
+
+.fas {
+    position: relative;
+    color: red;
+    right: 130px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+}
