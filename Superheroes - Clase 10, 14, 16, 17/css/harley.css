@@ -37,7 +37,7 @@
 }
 
 body {
-    background-image: url(/Superheroes/img/fondogrande.png);
+    background-image: url("../img/fondogrande.png");
     background-repeat: no-repeat;
     background-size: cover;
  

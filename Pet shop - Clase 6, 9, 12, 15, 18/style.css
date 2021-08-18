@@ -265,3 +265,27 @@ h6 {
 
 /*media queries */
 
+@media (max-width: 767px){
+    html{
+        height: 100vh;
+        width: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .productos {
+        
+        flex-direction: column;
+    }
+
+    .preshop {
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+}

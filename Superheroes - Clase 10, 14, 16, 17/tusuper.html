@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/tusuper.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5714f18349.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Clase 10 CSS Box</title>
+</head>
+
+
+
+<body>
+
+    <header>
+        <div class="bannerdesc">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
+    
+        <div class="bannerppal">
+            <img src="/Superheroes - Clase 10, 14, 16, 17/img/Logo.png">
+            <h1>Hero Store</h1>
+        </div>
+    
+        <div class="barranav">
+            <div class="barranav">
+                <a href="/Superheroes - Clase 10, 14, 16, 17/register.html"><p>Registrarse</p></a>
+                <a href="/Superheroes - Clase 10, 14, 16, 17/login.html"><p>Entrar</p></a>
+                <a href="/Superheroes - Clase 10, 14, 16, 17/contacto.html"><p>Contacto</p></a>
+            </div>
+        </div>
+        
+        
+    </header>
+    <main class="zonappal">
+        <section class="columnform">
+            <section class="columntitulo">
+                <h2>Añadí tu super!</h2>
+                <p>Agrega tu personaje favorito completando las opciones.</p>
+            </section>
+
+            <section class="formulariorow">
+                <form class="column one">
+                    <label for="name">*Nombre</label>
+                    <input id="name" type="text">
+                    <label for="date">Fecha</label>
+                    <input id="date" type="date">
+                    <textarea placeholder=" Descripción"></textarea>
+                </form>
+                
+                
+                <form class="column two">  
+                    <p>*Especie</p>
+                    <select>
+                        <optgroup label="Especie">
+                            <Option>Humano</Option>
+                            <option>Bagre</option>
+                            <option>Merluzaman</option>
+                            <option>Pichon</option>
+                        </optgroup>
+                    </select>
+
+                    <label for="foto"> Subi tu foto</label>
+                    <input type="file" id="foto">
+                
+                 
+                    <label for="volar">Volar</label>
+                    <input type="checkbox" id="volar" value="volar">
+                    <label for="poderes">Superinteligencia</label>
+                    <input type="checkbox" id="superinteligencia" value="superinteligencia">
+                    <label for="laser">Vista de rayo laser</label>
+                    <input type="checkbox" id="laser" value="laser">
+                    <label for="billetera">Billetera gorda</label>
+                    <input type="checkbox" id="billetera" value="billetera">
+
+                    <br>
+                    <p>Tipo de personaje</p>
+                     
+                    <label for="tipoheroe"></label>
+                    <input type="radio" id="tipoheroe" class="radiobutton">
+                    <p>Heroe / Heroina</p>
+                    <label for="tipoheroe2"></label>
+                    <input type="radio" id="tipoheroe2" class="radiobutton"> 
+                    <p>Villano</p>               
+                   
+
+                </form>
+            </section>
+
+            <button type="submit">Añadir</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+

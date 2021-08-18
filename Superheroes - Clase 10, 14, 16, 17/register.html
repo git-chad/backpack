@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/Superheroes/css/contacto.css" rel="stylesheet">
+    <link href="/Superheroes - Clase 10, 14, 16, 17/css/register.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5714f18349.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Contacto</title>
+    <title>Register</title>
 </head>
 <body>
     <header>
@@ -18,39 +18,37 @@
         </div>
 
         <div class="bannerppal">
-            <img src="../Superheroes/img/Logo.png">
+            <img src="../Superheroes - Clase 10, 14, 16, 17/img/Logo.png">
             <h1>Hero Store</h1>
         </div>
-
-        <div class="barranav">
-            <a href="/Superheroes/index.html"><p>Home</p></a>
-            <a href="/Superheroes/register.html"><p>Registrarse</p></a>
-            <a href="/Superheroes/login.html"><p>Entrar</p></a>
-        </div>
-        
-        
     </header>
 
-    <section class="contactbox">
-        <h2>Contacto</h2>
+    <section class="regbox">
+        <h2>Registro</h2>
 
         <label for="name"></label>
         <input id="name" name="nombre" type="text" placeholder="Nombre y Apellido" class="name">
         <label for="email"></label>
         <input id="email" name="email" type="email" placeholder="Correo Electrónico">
-        <label for="consulta"></label>
-        <textarea id="consulta" name="consulta" type="text" class="consulta"></textarea> 
+        <label for="passwd"></label>
+        <input id="passwd" name="passwd" type="password" placeholder="Contraseña" class="passwd">
         
+        <select name="Pais" class="dropdown">
+            <optgroup label="Pais" aria-placeholder="Pais">
+                <Option>Argentina</Option>
+                <option>Brasil</option>
+                <option>Colombia</option>
+            </optgroup>
+        </select>
         <section class="buttoncolumn">
             <button type="reset" id="resetear">Resetear</button>
-            <a href="/Superheroes/index.html"><button type="submit" id="entrar">Entrar</button></a>
+            <a href="/Superheroes - Clase 10, 14, 16, 17/index.html"><button type="submit" id="entrar">Entrar</button></a>
         </section>
 
-        
+        <p>¿Ya tienes una cuenta? <a href="/Superheroes - Clase 10, 14, 16, 17/login.html">Ingresar</a></p>
     </section>
-
+    
     <footer>
         <p>Todos los derechos reservados a FRONT END 1</p>
     </footer>
-
 </body>

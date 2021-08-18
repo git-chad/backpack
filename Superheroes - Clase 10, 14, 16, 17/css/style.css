@@ -116,15 +116,16 @@
     bottom: 10%;
 }
 
-button {
+.boton {
     width: 128px;
-    height: 70px;
+    height: 30px;
     color: white;
     font-size: 16px;
     font-weight: 600;
     background-color:#00669F;
     position: relative;
     bottom: 35px;
+    
 
 }
 
@@ -138,4 +139,32 @@ footer {
     align-items: center;
     justify-content: center;
     font-size: 16px;
+}
+
+@media (max-width: 900px){
+    html{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .seccionperfiles {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+
+}
+
+@media (max-width: 1400px){
+    html{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .seccionperfiles {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+
 }
