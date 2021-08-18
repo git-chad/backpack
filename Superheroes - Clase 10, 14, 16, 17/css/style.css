@@ -164,7 +164,5 @@ footer {
     .seccionperfiles {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: row;}
     
-
-}
