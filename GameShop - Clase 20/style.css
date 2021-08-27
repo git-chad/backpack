@@ -1,0 +1,184 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.logonav {
+    margin: 10px;
+}
+
+.navbar img {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar a {
+    color: white;
+    margin: 8px;
+    font-size:  16px;
+    text-decoration: none;
+}
+
+main {
+    height: calc(100vh - 216px);
+}
+
+.bannermain {
+    background-image: url('img/BackgroundHex.png');
+    width: 100%;
+    height: 512px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannermain h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.bannermain button {
+    width: 220px;
+    height: 61px;
+    background-color: #D01418;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+h3 {
+    text-align: center;
+    background-color: #f3f3f3;
+    font-size: 30px;
+}
+
+.dest {
+    margin-top: 40px;
+    
+}
+
+.detroitbox, .fifabox, .mk11box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.destacados {
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 380px;
+}
+
+.destacados h4 {
+    font-size: 20px;
+}
+
+.envio {
+    font-size: 10px;
+    color: #619D00;
+}
+
+.prodestrellas {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center; 
+    background-color: #F3F3F3;
+    
+}
+
+.sillas {
+    background-image: url("img/Sillas.png");
+}
+
+.computadoras {
+    background-image: url("img/Compus.png");
+}
+
+.sillas, .computadoras {
+    width: 361px;
+    height: 135px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    margin: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sillas p {
+    margin: 10px;
+}
+
+.computadoras p {
+    margin: 10px;
+}
+
+article {
+    background-color: white;
+    width: 265px;
+    height: 322px;
+}
+
+footer {
+    height: 216px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.logofooter {
+    margin: 10px;
+}
+
+.redesfooter p {
+    font-size: 25px;
+    color: #F3F3F3;
+    margin: 10px;
+}
+
+.redesfooter img {
+    align-self: center;  
+}
